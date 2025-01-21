@@ -20,7 +20,7 @@ getModelsList()
 
 ## Run the analysis
 ethseq.Analysis(
-  target.vcf = "/storage/users/tulio/Projeto_Luy_COVID/SNP_data/all_gatk_final.vcf.gz",
+  target.vcf = "caminho/para/arquivo.vcf.gz",
   model.available = "Gencode.Exome",
   model.assembly = "hg38",
   model.pop = "All",
